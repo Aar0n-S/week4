@@ -88,14 +88,8 @@ li{
     background-color: orangered;
     height: 700px;
     display: flex;
-
-    flex-wrap: wrap;
-    
-    flex-direction: column;
-    justify-content: flex-start;
-
-    /*align-items: center;*/
-    /*justify-content: center;*/
+    align-items: center;
+    justify-content: center;
 
 
 }
@@ -106,9 +100,10 @@ li{
     background-color: lightcoral;
     height: 800px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-
+    
 }
 
 iframe { 
@@ -122,6 +117,9 @@ iframe {
 .section-four {
     background-color: darkslateblue;
     height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
 }
 
